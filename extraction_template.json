@@ -1,0 +1,32 @@
+{
+    "VAT Number": {
+        "rule": "Extract using pattern: 'VAT No\\.\\s+([A-Z]{2}\\d+)'"
+    },
+    "Invoice No": {
+        "rule": "Extract using pattern: 'Invoice No\\s+(\\d+)'"
+    },
+    "Customer Name": {
+        "rule": "Extract using pattern: 'Name:\\s+([\\w\\s]+)'"
+    },
+    "Customer Number": {
+        "rule": "Extract using pattern: 'Invoice No Customer No Invoice Period Date\\n\\d+\\s+(\\d+)'"
+    },
+    "Invoice Period": {
+        "rule": "Extract using pattern: 'Invoice No Customer No Invoice Period Date\\n\\d+\\s+\\d+\\s+(\\d{1,2}\\.\\d{1,2}\\.\\d{4}\\s+-\\s+\\d{1,2}\\.\\d{1,2}\\.\\d{4})'"
+    },
+    "Date": {
+        "rule": "Extract using pattern: 'Invoice No Customer No Invoice Period Date\\n\\d+\\s+\\d+\\s+\\d{1,2}\\.\\d{1,2}\\.\\d{4}\\s+-\\s+\\d{1,2}\\.\\d{1,2}\\.\\d{4}\\s+(\\d{1,2}\\.\\s\\w+\\s\\d{4})'"
+    },
+    "Total Amount": {
+        "rule": "Extract using pattern: 'Total\\s+([\\d,.]+) \u20ac'"
+    },
+    "VAT": {
+        "rule": "Extract using pattern: 'VAT\\s+(\\d{1,2}) %'"
+    },
+    "Gross Amount": {
+        "rule": "Extract using pattern: 'Gross Amount incl. VAT\\s+([\\d,.]+) \u20ac'"
+    },
+    "Service Fees": {
+        "rule": "Extract using pattern: '(Basic Fee [\\w\\s]+[\\d,.]+ \u20ac)'"
+    }
+}

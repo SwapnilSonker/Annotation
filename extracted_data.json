@@ -1,0 +1,32 @@
+{
+    "VAT Number": [
+        "DE199378386"
+    ],
+    "Invoice No": null,
+    "Customer Name": [
+        "Stefanie M\u00fcller\nPhone"
+    ],
+    "Customer Number": [
+        "12345"
+    ],
+    "Invoice Period": [
+        "01.02.2024 - 29.02.2024"
+    ],
+    "Date": [
+        "1. M\u00e4rz 2024"
+    ],
+    "Total Amount": [
+        "381,12"
+    ],
+    "VAT": [
+        "19"
+    ],
+    "Gross Amount": [
+        "453,53"
+    ],
+    "Service Fees": [
+        "Basic Fee wmView 130,00 \u20ac",
+        "Basic Fee wmPos 50,00 \u20ac",
+        "Basic Fee wmGuide 1.000,00 \u20ac"
+    ]
+}
